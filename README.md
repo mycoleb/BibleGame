@@ -1,4 +1,4 @@
-# 📖 Bible Trivia Challenge
+#  Bible Trivia Challenge
 
 A data-driven Bible trivia game built with **Python**, **Pandas**, and **Streamlit**. Test your knowledge of the scriptures by identifying which book a random verse belongs to.
 
@@ -17,7 +17,7 @@ A data-driven Bible trivia game built with **Python**, **Pandas**, and **Streaml
 ## 📊 Data Source
 The Bible data used in this project is sourced from **[BibleSuperSearch.com](https://www.biblesupersearch.com)**. 
 
-The project is designed to work with the **King James Version (KJV)** CSV exports. It includes logic to handle the specific metadata and headers provided by their public domain datasets.
+The project is designed to work with the **King James Version (KJV)** CSV exports. It includes logic to handle the specific metadata and headers provided by their public domain datasets. I deleted part of the metadata so only the first line of the csv is metadata. The second and other remaining lines are verses in this comma seperated format ""Verse ID","Book Name","Book Number",Chapter,Verse,Text"
 
 ---
 
